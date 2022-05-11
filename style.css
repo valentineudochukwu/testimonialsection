@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca',sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(210, 46%, 95%);
+}
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+}
+.container-1{
+    margin: 10px;
+}
+.container-2{
+    margin: 10px;
+}
+.card-1{
+    display: flex;
+    justify-content: space-around;
+}
+.card-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+
+}
+.daniel-card{
+    background-image: url(/assets/bg-pattern-quotation.svg);
+    background-position:right top 5px;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-color: hsl(263, 55%, 52%);
+    padding: 10px;
+    margin-right: 16px;
+    border-radius: 10px;
+}
+.jonathan-card{
+    background-color: hsl(217, 19%, 35%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.jeanette-card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.patrick-card{
+    background-color:  hsl(219, 29%, 14%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.kira-card{
+    padding: 15px;
+    height: 98%;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.testifier{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.text{
+    color: hsl(0, 0%, 100%);
+    margin-left: 10px;
+}
+.text-1{
+    margin-left: 10px;
+}
+.text p{
+    opacity: 50%;
+}
+.paragraph h4{
+    margin-bottom: 10px;
+}
+.k-paragraph h4{
+    margin-bottom: 10px;
+}
+.p-paragraph h4{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+.p-paragraph p{
+    color: hsl(0, 0%, 100%);
+    opacity: 70%;
+    font-size: 13px;
+}
+.testifier img{
+    border-radius: 50px;
+}
+.paragraph p{
+    font-size: 13px;
+    color:hsl(0, 0%, 100%) ;
+    opacity: 70%;
+}
+.k-paragraph p{
+    font-size: 13px;
+}
+
+@media screen and (max-width: 700px){
+
+.hero-container{
+    display: inline-block;
+}
+.container-1{
+    margin: 10px;
+}
+.container-2{
+    margin: 15px;
+}
+.card-1{
+    display: inline-block;
+    margin: 10px;
+    
+}
+.card-2{
+    display: inline-block;
+    margin: 10px;
+}
+.kira-card{
+    width:300px 
+}
+.daniel-card{
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.k-paragraph p {
+    font-size: 11px;
+}
+.p-paragraph p{
+    font-size: 11px;
+}
+.jeanette-card{
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.patrick-card{
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+    body{justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .hero-container{
+        display: inline-block;
+    }
+    .container-1{
+        margin: 10px;
+    }
+    .container-2{
+        margin: 15px;
+    }
+    .card-1{
+        display: inline-block;
+        margin: 10px;
+        
+    }
+    .card-2{
+        display: inline-block;
+        margin: 10px;
+    
+    }
+    body{
+        height: 100%;
+        align-items: center;
+    }
+    .daniel-card{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .jeanette-card{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .patrick-card{
+        margin-top: 20px;
+    }
+    .kira-card{
+       max-width: 497px
+    }
+    
+
+}
